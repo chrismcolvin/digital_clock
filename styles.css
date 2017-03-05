@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:100');
+
+body {
+  margin: 0;
+  height: 100%;
+  background: #1f8d9b; /* Old browsers */
+  background: -moz-linear-gradient(45deg, #1f8d9b 0%, #48877a 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg, #1f8d9b 0%,#48877a 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg, #1f8d9b 0%,#48877a 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  color: whitesmoke;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 100;
+  font-size: 3em;
+  overflow: hidden;
+}
+
+#clock {
+  width: 350px;
+  height: 205px;
+  padding-top: 145px;
+  border: 1px solid whitesmoke;
+  border-radius: 100%;
+  background: #e27f61; /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #e27f61 0%, #d67a48 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #e27f61 0%,#d67a48 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #e27f61 0%,#d67a48 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  position: absolute;
+  left: 50vw;
+  top: 50vh;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
